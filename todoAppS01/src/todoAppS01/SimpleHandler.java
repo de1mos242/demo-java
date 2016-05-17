@@ -21,8 +21,8 @@ public class SimpleHandler extends AbstractHandler {
         baseRequest.setHandled(true);
         
         PrintWriter writer = response.getWriter();
-    	if (target == "emperor") {
-        	writer.println("<h1>Hello SIS</h1>");
+    	if ("/emperor".equals(target)) {
+        	writer.println("<h1>Hello Emperor of catkind!</h1>");
         }
         else {
         	response.getWriter().println("<ul>");
