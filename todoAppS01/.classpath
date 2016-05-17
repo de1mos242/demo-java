@@ -7,5 +7,8 @@
 	<classpathentry kind="lib" path="libs/jetty-io-9.3.8.v20160314.jar"/>
 	<classpathentry kind="lib" path="libs/jetty-server-9.3.8.v20160314.jar"/>
 	<classpathentry kind="lib" path="libs/jetty-util-9.3.8.v20160314.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-webapp-9.3.8.v20160314.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-servlet-9.3.8.v20160314.jar"/>
+	<classpathentry kind="lib" path="libs/jetty-security-9.3.8.v20160314.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
