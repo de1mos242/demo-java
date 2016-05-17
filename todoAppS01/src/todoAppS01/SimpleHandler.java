@@ -1,6 +1,8 @@
 package todoAppS01;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Arrays;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -17,7 +19,18 @@ public class SimpleHandler extends AbstractHandler {
 		response.setContentType("text/html;charset=utf-8");
         response.setStatus(HttpServletResponse.SC_OK);
         baseRequest.setHandled(true);
-        response.getWriter().println("<h1>Hello SIS</h1>");
+        
+        PrintWriter writer = response.getWriter();
+    	if (target == "emperor") {
+        	writer.println("<h1>Hello SIS</h1>");
+        }
+        else {
+        	response.getWriter().println("<ul>");
+        	Arrays.asList("write simple server", "add stupid handler", "add conditional to handler")
+        		.stream().forEach(todo -> writer.println("\t<li>" + todo + "</li>"));
+        	
+        	writer.println("</ul>");
+        }
 	}
 	
 }
