@@ -7,8 +7,10 @@ public class EmbeddedStart {
 	public static void main(String[] args) {
 		try {
 			Server server = new Server(8080);
-        
-	        server.start();
+			
+			server.setHandler(new SimpleHandler());
+	        
+			server.start();
 	        server.join();
 		}
 		catch (Exception e) {
