@@ -1,0 +1,18 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+    <servlet>
+        <servlet-name>emperor</servlet-name>
+        <servlet-class>todoAppS03.EmperorServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>todo</servlet-name>
+        <servlet-class>todoAppS03.TodoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>emperor</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>todo</servlet-name>
+        <url-pattern>/todo</url-pattern>
+    </servlet-mapping>
+</web-app>
