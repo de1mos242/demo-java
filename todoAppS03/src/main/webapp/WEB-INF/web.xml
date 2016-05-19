@@ -7,6 +7,10 @@
         <servlet-name>todo</servlet-name>
         <servlet-class>todoAppS03.TodoServlet</servlet-class>
     </servlet>
+    <servlet>
+    	<servlet-name>sqlite</servlet-name>
+    	<servlet-class>todoAppS03.SqliteServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>emperor</servlet-name>
         <url-pattern>/*</url-pattern>
@@ -14,5 +18,9 @@
     <servlet-mapping>
         <servlet-name>todo</servlet-name>
         <url-pattern>/todo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>sqlite</servlet-name>
+    	<url-pattern>/sqlite/*</url-pattern>
     </servlet-mapping>
 </web-app>

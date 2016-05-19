@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="todoAppS03">
 		<property name="context-root" value="todoAppS03"/>
 		<wb-resource deploy-path="/" source-path="/WebContent"/>
@@ -6,7 +7,7 @@
 		<property name="java-output-path" value="/todoAppS03/build/classes"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webapp"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/webapp"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.8.v20160314/127feb7407f4137ff4295b5fa2895845db56710/jetty-http-9.3.8.v20160314.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
@@ -32,6 +33,9 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.gradle/caches/modules-2/files-2.1/org.xerial/sqlite-jdbc/3.8.11.2/dec208cba8debb0a8b9204b08d8d887d63041f0f/sqlite-jdbc-3.8.11.2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>
