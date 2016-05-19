@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/webapp"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="output" path="build/classes"/>
-	<classpathentry kind="output" path="bin"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.8.v20160314/ba46c47690ae0acfd6a75a66137c10c9f8693327/jetty-http-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.8.v20160314/127feb7407f4137ff4295b5fa2895845db56710/jetty-http-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.8.v20160314/127feb7407f4137ff4295b5fa2895845db56710/jetty-http-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.8.v20160314/ba46c47690ae0acfd6a75a66137c10c9f8693327/jetty-http-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.8.v20160314/44ea18599a52f22994f04d020ecceb6c097d3785/jetty-io-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.8.v20160314/371e3c2b72d9a9737579ec0fdfd6a2a3ab8b8141/jetty-io-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.8.v20160314/371e3c2b72d9a9737579ec0fdfd6a2a3ab8b8141/jetty-io-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.3.8.v20160314/44ea18599a52f22994f04d020ecceb6c097d3785/jetty-io-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.8.v20160314/3e6aa47e0c6833e64b0fb5971f86f7eba95ec350/jetty-security-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.8.v20160314/5291fa5e3098f08017bfcc7f950a7ce36c9544d7/jetty-security-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.8.v20160314/5291fa5e3098f08017bfcc7f950a7ce36c9544d7/jetty-security-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.3.8.v20160314/3e6aa47e0c6833e64b0fb5971f86f7eba95ec350/jetty-security-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.8.v20160314/6c0719aa3768d81c0cc329e938a861d295883bc2/jetty-server-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.8.v20160314/da8366f602f35d4c3177cb081472e2fc4abe04ea/jetty-server-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.8.v20160314/da8366f602f35d4c3177cb081472e2fc4abe04ea/jetty-server-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.3.8.v20160314/6c0719aa3768d81c0cc329e938a861d295883bc2/jetty-server-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.8.v20160314/fbfb45f1c9f795d40c6b4021aa36ed931ccd1585/jetty-servlet-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.8.v20160314/ea5f25d3326d7745d9c21d405dcf6f878efbd5fb/jetty-servlet-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.8.v20160314/ea5f25d3326d7745d9c21d405dcf6f878efbd5fb/jetty-servlet-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.3.8.v20160314/fbfb45f1c9f795d40c6b4021aa36ed931ccd1585/jetty-servlet-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.8.v20160314/6232f8c6af72572e4b1200ab9a15f8042f55b0f0/jetty-util-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.8.v20160314/1d53c7a7e7715e67d6f4edec6c5b328ee162e65/jetty-util-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.8.v20160314/1d53c7a7e7715e67d6f4edec6c5b328ee162e65/jetty-util-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.3.8.v20160314/6232f8c6af72572e4b1200ab9a15f8042f55b0f0/jetty-util-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.8.v20160314/2092ef8821f61bc6e1f995ec58d9786fb9aeac2a/jetty-webapp-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.8.v20160314/2f0dfef84af7c97f2a1f14db65aa3f37349420e4/jetty-webapp-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.8.v20160314/2f0dfef84af7c97f2a1f14db65aa3f37349420e4/jetty-webapp-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.3.8.v20160314/2092ef8821f61bc6e1f995ec58d9786fb9aeac2a/jetty-webapp-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.8.v20160314/e076290bce9c87ecee87ed4ec0d5c84c640083f5/jetty-xml-9.3.8.v20160314-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.8.v20160314/f02bbbf71d7ea706a95fedf7e76c3ff243049bfc/jetty-xml-9.3.8.v20160314.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.8.v20160314/f02bbbf71d7ea706a95fedf7e76c3ff243049bfc/jetty-xml-9.3.8.v20160314.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.3.8.v20160314/e076290bce9c87ecee87ed4ec0d5c84c640083f5/jetty-xml-9.3.8.v20160314-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar" kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+	<classpathentry kind="lib" path="/home/denis/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar" sourcepath="/home/denis/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/ab3976d4574c48d22dc1abf6a9e8bd0fdf928223/javax.servlet-api-3.1.0-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
 </classpath>
