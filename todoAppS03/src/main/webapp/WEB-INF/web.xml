@@ -28,6 +28,20 @@
 		<param-name>db connection string</param-name>
 		<param-value>jdbc:sqlite:/home/denis/todoAppS03.db</param-value>
 	</context-param>
+	
+	<servlet>
+		<servlet-name>springServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring/servlet-context.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springServlet</servlet-name>
+		<url-pattern>/spring/*</url-pattern>
+	</servlet-mapping>
 
     <servlet>
         <servlet-name>emperor</servlet-name>
