@@ -25,7 +25,7 @@ public class TodoServlet extends HttpServlet {
 						"build with gradle")
 				.stream()
 				.forEach(todo -> writer.println("\t<li>" + todo + "</li>"));
-
+		writer.println("<li>"+req.getAttribute("filterAttr")+"</li>");
 		writer.println("</ul>");
 	}
 }

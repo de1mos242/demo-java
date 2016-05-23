@@ -1,4 +1,25 @@
-<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+	<filter>
+		<filter-name>todoFilter</filter-name>
+		<filter-class>todoAppS03.TodoFilter</filter-class>
+		<init-param>
+			<param-name>filter greeting name</param-name>
+			<param-value>todoAPPP!</param-value>
+		</init-param>
+		<init-param>
+			<param-name>good bye string</param-name>
+			<param-value>bye all!!</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>todoFilter</filter-name>
+		<url-pattern>/todo</url-pattern>
+	</filter-mapping>
+
     <servlet>
         <servlet-name>emperor</servlet-name>
         <servlet-class>todoAppS03.EmperorServlet</servlet-class>
