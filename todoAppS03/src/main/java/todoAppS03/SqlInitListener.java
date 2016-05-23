@@ -18,11 +18,11 @@ public class SqlInitListener implements ServletContextListener{
 	@Override
 	public void contextInitialized(ServletContextEvent arg0) {
 		System.out.println("init db from event listener");
-		prepareDBIfNeed();
+		prepareDBIfNeed(arg0.getServletContext().getInitParameter("db connection string"));
 		System.out.println("init db from event listener finished");
 	}
 	
-	private void prepareDBIfNeed() {
+	private void prepareDBIfNeed(String connectionString) {
 		Connection connection = null;  
 	     ResultSet resultSet = null;  
 	     Statement statement = null;  
@@ -30,7 +30,8 @@ public class SqlInitListener implements ServletContextListener{
 	     try 
 	     {  
 	         Class.forName("org.sqlite.JDBC");  
-	         connection = DriverManager.getConnection("jdbc:sqlite:/home/denis/todoApp.db");  
+	         connection = DriverManager.getConnection(connectionString);  
+	         System.out.println("connected to: " + connectionString);
 	         statement = connection.createStatement();  
 	         resultSet = statement  
 	                 .executeQuery("SELECT name FROM sqlite_master WHERE type='table' AND name='todos';");  

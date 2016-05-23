@@ -23,6 +23,11 @@
 	<listener>
 		<listener-class>todoAppS03.SqlInitListener</listener-class>
 	</listener>
+	
+	<context-param>
+		<param-name>db connection string</param-name>
+		<param-value>jdbc:sqlite:/home/denis/todoAppS03.db</param-value>
+	</context-param>
 
     <servlet>
         <servlet-name>emperor</servlet-name>

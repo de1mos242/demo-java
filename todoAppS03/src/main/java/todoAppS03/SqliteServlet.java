@@ -22,12 +22,13 @@ public class SqliteServlet extends HttpServlet {
         resp.setStatus(HttpServletResponse.SC_OK);
         
         PrintWriter writer = resp.getWriter();
-    	writer.println("<h1>" + getTodoById(idPath) + "</h1>");
+    	String connectionString = getServletContext().getInitParameter("db connection string");
+		writer.println("<h1>" + getTodoById(idPath, connectionString) + "</h1>");
 	}
 	
 	
 	
-	private String getTodoById(String todoId) {
+	private String getTodoById(String todoId, String connectionString) {
 		String resultString = "Not found";
 		
 		Connection connection = null;  
@@ -37,7 +38,7 @@ public class SqliteServlet extends HttpServlet {
 	     try 
 	     {  
 	         Class.forName("org.sqlite.JDBC");  
-	         connection = DriverManager.getConnection("jdbc:sqlite:/home/denis/todoApp.db");  
+	         connection = DriverManager.getConnection(connectionString);  
 	         statement = connection.createStatement();  
 	         resultSet = statement  
 	                 .executeQuery("SELECT name FROM todos WHERE id = '" + todoId + "';");  
