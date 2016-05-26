@@ -7,6 +7,11 @@
 	<bean id="dataSourceBeanId" class="org.apache.commons.dbcp.BasicDataSource" 
 	        destroy-method="close">
 	    <property name="driverClassName" value="org.sqlite.JDBC" />
-	    <property name="url" value="jdbc:sqlite:/home/denis/todoAppS03.db" />
+	    <property name="url" value="jdbc:sqlite:/home/denis/todoAppS03-3.db" />
+	</bean>
+	
+	<bean id="liquibase" class="liquibase.integration.spring.SpringLiquibase">
+		<property name="dataSource" ref="dataSourceBeanId" />
+		<property name="changeLog" value="classpath:db/db.changelog-master.xml" />
 	</bean>
 </beans>

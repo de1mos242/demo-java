@@ -44,4 +44,14 @@ dependencies {
 	// http://mvnrepository.com/artifact/commons-dbcp/commons-dbcp
 	compile group: 'commons-dbcp', name: 'commons-dbcp', version: '1.2.2'
 	
+	compile group: 'org.liquibase', name: 'liquibase-core', version:'3.4.1'
+}
+
+eclipse {
+    project {
+        natures 'org.springsource.ide.eclipse.gradle.core.nature'
+        buildCommand 'org.eclipse.jdt.core.javabuilder'
+        buildCommand 'org.eclipse.wst.common.project.facet.core.builder'
+        buildCommand 'org.eclipse.wst.validation.validationbuilder'
+    }
 }

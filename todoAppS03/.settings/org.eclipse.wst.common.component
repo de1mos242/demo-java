@@ -2,6 +2,7 @@
 <project-modules id="moduleCoreId" project-version="2.0">
 	<wb-module deploy-name="todoAppS03">
 		<property name="context-root" value="todoAppS03"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.3.8.v20160314/127feb7407f4137ff4295b5fa2895845db56710/jetty-http-9.3.8.v20160314.jar">
@@ -38,6 +39,9 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.gradle/caches/modules-2/files-2.1/commons-dbcp/commons-dbcp/1.2.2/4fd4c6110e9bca3a655b717eb2e5920febb8403d/commons-dbcp-1.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.m2/repository/org/liquibase/liquibase-core/3.4.1/liquibase-core-3.4.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/denis/.m2/repository/org/springframework/spring-beans/4.2.0.RELEASE/spring-beans-4.2.0.RELEASE.jar">

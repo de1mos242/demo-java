@@ -20,11 +20,6 @@
 		<url-pattern>/old/todo</url-pattern>
 	</filter-mapping>
 	
-
-	<listener>
-		<listener-class>todoAppS03.SqlInitListener</listener-class>
-	</listener>
-	
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
@@ -36,10 +31,6 @@
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>
 	
-	<context-param>
-		<param-name>db connection string</param-name>
-		<param-value>jdbc:sqlite:/home/denis/todoAppS03.db</param-value>
-	</context-param>
 	
 	<servlet>
 		<servlet-name>springServlet</servlet-name>
