@@ -47,6 +47,13 @@ dependencies {
 	compile group: 'org.liquibase', name: 'liquibase-core', version:'3.4.1'
 	
 	compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version:'2.4.3'
+	compile group: 'org.hibernate', name: 'hibernate-core', version:'4.3.11.Final'
+	compile group: 'org.springframework', name: 'spring-orm', version:'4.2.0.RELEASE'
+	
+	// http://mvnrepository.com/artifact/hsqldb/hsqldb
+	compile group: 'hsqldb', name: 'hsqldb', version: '1.8.0.10'
+	
+	
 }
 
 eclipse {
