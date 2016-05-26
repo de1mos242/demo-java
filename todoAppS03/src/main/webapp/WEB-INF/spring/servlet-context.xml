@@ -7,6 +7,8 @@
 
   <!-- the application context definition for the springapp DispatcherServlet -->
 
-  <bean name="todoBean" class="todoAppS03.TodoControllerBean"/>
+  <bean name="todoBean" class="todoAppS03.TodoControllerBean">
+  	<property name="dataSourceProperty" ref="dataSourceBeanId"></property>
+  </bean>
 
 </beans>

@@ -44,6 +44,7 @@ public class SqlInitListener implements ServletContextListener{
 	        	 statement.execute("insert into todos (id, name) values (3, 'add conditional to handler');");
 	        	 statement.execute("insert into todos (id, name) values (4, 'build with gradle');");
 	        	 statement.execute("insert into todos (id, name) values (5, 'use sqlite');");
+	        	 statement.execute("insert into todos (id, name) values (6, 'use sqlite datasource');");
 	         }  
 	     } 
 	     catch (Exception e) 
