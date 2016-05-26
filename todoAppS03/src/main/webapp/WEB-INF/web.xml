@@ -17,12 +17,15 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>todoFilter</filter-name>
-		<url-pattern>/todo</url-pattern>
+		<url-pattern>/old/todo</url-pattern>
 	</filter-mapping>
 	
+
 	<listener>
 		<listener-class>todoAppS03.SqlInitListener</listener-class>
 	</listener>
+	
+	
 	
 	<context-param>
 		<param-name>db connection string</param-name>
@@ -42,6 +45,16 @@
 		<servlet-name>springServlet</servlet-name>
 		<url-pattern>/spring/*</url-pattern>
 	</servlet-mapping>
+	
+	<servlet-mapping>
+	  <servlet-name>jsp</servlet-name>
+	  <url-pattern>/WEB-INF/site/*</url-pattern>
+	 </servlet-mapping>
+	
+	<servlet>
+	  <servlet-name>jsp</servlet-name>
+	  <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+	</servlet>
 
     <servlet>
         <servlet-name>emperor</servlet-name>
